@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a game developer using Unreal Engine
 
-### More Information
+### Games I've published
 
-A place to include any other types of information that you'd like to include about yourself.
+[Protecc Earth-chan (Android)](https://play.google.com/store/apps/details?id=com.implyingprogramming.proteccearthchan)
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[federico@santamorena.me](mailto:federico@santamorena.me)
