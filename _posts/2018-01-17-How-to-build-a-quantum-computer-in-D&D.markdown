@@ -31,6 +31,10 @@ A 1D bit is a point on a segment between 0 and 1
 A 2D bit is a point on a circle
 A 3D bit is a point a sphere!
 
+The north pole is 0.
+The south pole is 1.
+All the other points are just values "in between".
+
 Yes you can encode information as a point on a sphere!
 
 *Hardware*
@@ -42,5 +46,10 @@ So quantum computers just use rows of single electrons encased in very small cag
 
 *Interesting quantum effects*
 
+Obviously quantum computers don't just use electrons to encode a point on a sphere, but they exploit some interesting behaviors
+elementary particles exhibit:
 
+- "Collapse of the wave function": it just means that when you try to convert the 3D bit (qubit) into the classical bit the probability
+of becoming 0 or 1 is proportional to how much the point is near the north pole (0) or south pole (1); if the point is at the equator it has 50% chance of becoming 0 and 50% chance of becoming 1.
+- Entanglement: quantum entanglement just means when you have two qubits that are pointing at opposite directions but that's the only thing you actually know; you don't know where, just like that they are one the opposite of the other; and when you collapse one the other will collapse instantly *no matter the distance* to the opposite value.
 
