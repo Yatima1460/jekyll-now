@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOTE: moving everything to this blog, it will require some time
+title: Moving everything to GitHub!
 ---
 
-test
+I'm moving everything to Github so the blog posts will be empty or almost empty!
