@@ -1,0 +1,4 @@
+---
+layout: post
+title: NOTE: moving everything to this blog, it will require some time
+---
