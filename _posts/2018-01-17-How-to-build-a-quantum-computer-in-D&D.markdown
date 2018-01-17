@@ -3,8 +3,6 @@ layout: post
 title: How to build a quantum computer in D&D (DRAFT)
 ---
 
-**Warning Note**
-
 I will try to explain quantum computers in the simplest way possible.
 Everything explained here is in layman's terms, nothing is advanced math or physics and you don't even need to understand programming.
 
@@ -58,7 +56,23 @@ of becoming 0 or 1 is proportional to how much the point is near the north pole 
 - Entanglement: quantum entanglement just means when you have set up two qubits in a way that they are pointing at opposite directions but that's the only thing you actually know; you don't know where the points on the spheres are, just that they are opposite; and when you collapse one the other will collapse instantly *no matter the distance* to the opposite value.
 Einstein called this "spooky action at a distance".
 
+**Classical gates**
+
+The basic logic gates that operates on classical bits are:
+ - the NOT gate (just flips a 0 into 1 or 1 into 0) 
+ - the AND gate (takes two bits as input and outputs a 1 only if both the inputs are 1)
+You can demonstrate that by combining the NOT gate and the AND gate you can make ANY type of calculation.
+(The OR gate is just a NOT gate precedeed by two NOT gate and succeded by another NOT gate)
+
 **Quantum gates**
 
+Quantum gates are mainly rotations applied to the sphere.
+The simplest quantum gate is the Hadamard gate:
+
+![Hadamard]({{site.baseurl}}/images/hadamard.png)
+
+It just rotates the qubit by 180° on the X+Z axis.
+If you have a qubit exactly at the north pole (probability 100% of becoming 0 when converted) it will be exactly at the equator.
+If you have a qubit exactly at the south pole (probability 100% of becoming 1 when converted) it will be exactly at the equator but *on the opposite side*.
 
 
